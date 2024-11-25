@@ -9,21 +9,21 @@ This web application allows users to sync their playlists between **Spotify** an
 This application is divided into two parts: the **frontend** (built with Next.js and React) and the **backend** (built with Node.js and Express). The frontend allows users to interact with the application through a simple, mobile-friendly interface where they can log in to Spotify and YouTube Music. The backend handles authentication, token management, and API communication with Spotify and YouTube Music to sync playlists between both services.
 
 ## File Structure
-
-my-full-stack-app/ 
-├── backend/ # Node.js/Express backend 
-│ ├── routes/ # API route handlers for Spotify and YouTube Music 
-│ ├── server.ts # Entry point for the Express server ├── frontend/ # Next.js frontend 
-│ ├── pages/ # Next.js pages and components 
-│ ├── public/ # Static assets 
-│ ├── styles/ # Tailwind CSS configuration and styles 
-│ ├── .next/ # Build output for Next.js (generated during build) 
-├── .env # Environment variables (Spotify API credentials) 
-├── package.json # Project dependencies and scripts 
-├── next.config.js # Next.js configuration 
-├── tsconfig.json # TypeScript configuration 
-└── docker-compose.yml # Docker configuration (optional)
-
+    
+    my-full-stack-app/ 
+    ├── backend/ # Node.js/Express backend 
+    │ ├── routes/ # API route handlers for Spotify and YouTube Music 
+    │ ├── server.ts # Entry point for the Express server ├── frontend/ # Next.js frontend 
+    │ ├── pages/ # Next.js pages and components 
+    │ ├── public/ # Static assets 
+    │ ├── styles/ # Tailwind CSS configuration and styles 
+    │ ├── .next/ # Build output for Next.js (generated during build) 
+    ├── .env # Environment variables (Spotify API credentials) 
+    ├── package.json # Project dependencies and scripts 
+    ├── next.config.js # Next.js configuration 
+    ├── tsconfig.json # TypeScript configuration 
+    └── docker-compose.yml # Docker configuration (optional)
+    
 ## Implementation
 
 ### **Frontend**
