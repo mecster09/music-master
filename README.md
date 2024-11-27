@@ -3,8 +3,7 @@
 # Spotify and YouTube Music Playlist Sync
 
 ## Project Purpose
-This web application allows users to sync their playlists between **Spotify** and **YouTube Music**. It enables users to log in to both platforms, select playlists to sync, and transfer them between Spotify and YouTube Music while keeping the playlist names intact.
-[Project Plan][(https://github.com/user/repo/blob/branch/other_file.md](https://github.com/mecster09/task-list/blob/main/PROJECT.md)]
+This web application allows users to sync their playlists between **Spotify** and **YouTube Music**. It enables users to log in to both platforms, select playlists to sync, and transfer them between Spotify and YouTube Music while keeping the playlist names intact. View the full project plan: https://github.com/mecster09/task-list/blob/main/PROJECT.md
 
 ## Project Summary
 This application is divided into two parts: the **frontend** (built with Next.js and React) and the **backend** (built with Node.js and Express). The frontend allows users to interact with the application through a simple, mobile-friendly interface where they can log in to Spotify and YouTube Music. The backend handles authentication, token management, and API communication with Spotify and YouTube Music to sync playlists between both services.
