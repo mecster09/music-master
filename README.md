@@ -13,7 +13,8 @@ This application is divided into two parts: the **frontend** (built with Next.js
     my-full-stack-app/ 
     ├── backend/ # Node.js/Express backend 
     │ ├── routes/ # API route handlers for Spotify and YouTube Music 
-    │ ├── server.ts # Entry point for the Express server ├── frontend/ # Next.js frontend 
+    │ ├── server.ts # Entry point for the Express server 
+    ├── frontend/ # Next.js frontend 
     │ ├── pages/ # Next.js pages and components 
     │ ├── public/ # Static assets 
     │ ├── styles/ # Tailwind CSS configuration and styles 
