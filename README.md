@@ -1,5 +1,3 @@
-# task-list
-
 # Spotify and YouTube Music Playlist Sync
 
 ## Project Purpose
